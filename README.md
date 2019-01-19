@@ -6,7 +6,7 @@ Python3 implementation using cryptography, pyOpenSSL and XlsxWriter.
 Creates an .xlsx file listing CRL contents
 
 ```
-$ pip install cryptography, pyOpenSSL, XlsxWriter
+$ pip install cryptography pyOpenSSL XlsxWriter
 ```
 ```
 $ crl2xlsx.py <CRL file (DER)> <name for new .xlsx file>
