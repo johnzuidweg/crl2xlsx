@@ -9,7 +9,7 @@ import argparse, sys
 
 
 def main(argv):
-    parser = argparse.ArgumentParser(prog='crl2xlsx-new.py', usage='%(prog)s <CRL file (DER)> <name for new xlsx file> ', description='Creates an .xlsx file listing contents of a specified CRL file')
+    parser = argparse.ArgumentParser(prog='crl2xlsx.py', usage='%(prog)s <CRL file (DER)> <name for new .xlsx file> ', description='Creates an .xlsx file listing contents of a specified CRL file')
     parser.add_argument('infile', help='CRL file')
     parser.add_argument('outfile', help='name for new .xlsx file')
     args = parser.parse_args()
